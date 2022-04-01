@@ -12,8 +12,14 @@ winget install k6
 
 
 # Urls disponibles
-const baseUrl = "http://52.90.194.113:3000/stats";
-const baseUrl = "http://52.90.194.113:3000/mutant";
+
+`Utilice el cliente Postman para consumir los endpoint`
+
+Endpoint para analizar ADN `http://{IP instancia}:3000/mutant`
+Endpoint para estadísticas ADN `http://{IP instancia}:3000/stats`
+
+const baseUrl = "http://{IP instancia}:3000/mutant";
+const baseUrl = "http://{IP instancia}:3000/stats";
 
 # Estructura con cadenas de ADN
 
