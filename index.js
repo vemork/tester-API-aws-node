@@ -2,10 +2,10 @@ import http from "k6/http";
 import { check, sleep } from "k6";
 
 // const baseUrl = "http://52.90.194.113:3000/stats";
-// const baseUrl = "http://52.90.194.113:3000/mutant";
+const baseUrl = "http://52.90.194.113:3000/mutant";
 
 export let options = {
-  vus: 10,
+  vus: 1000,
   duration: "2s",
   thresholds: {
     // http errors should be less than 1%
