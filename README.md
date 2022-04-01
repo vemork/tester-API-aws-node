@@ -9,7 +9,7 @@ winget install k6
 ## Usage
 
 ```javascript
-import foobar
+
 
 # Urls disponibles
 const baseUrl = "http://52.90.194.113:3000/stats";
